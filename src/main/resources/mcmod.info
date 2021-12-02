@@ -1,9 +1,10 @@
 [
 {
-	"modid": "StorageDrawersBop",
-	"name": "Storage Drawers: Biomes O' Plenty Pack",
+	"modid": "${modId}",
+	"name": "${modName}",
 	"description": "Adds additional wood styles from the Biomes O' Plenty mod.",
-	"version": "$version",
+	"version": "${modVersion}",
+    "mcversion": "${minecraftVersion}",
 	"credits": "By jaquadro",
 	"logoFile": "",
 	"url": "http://www.jaquadro.com/",

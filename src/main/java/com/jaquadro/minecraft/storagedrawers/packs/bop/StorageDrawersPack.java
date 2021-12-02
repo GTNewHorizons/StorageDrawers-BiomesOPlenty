@@ -14,7 +14,7 @@ public class StorageDrawersPack
 {
     public static final String MOD_ID = "StorageDrawersBop";
     public static final String MOD_NAME = "Storage Drawers: Biomes O' Plenty Pack";
-    public static final String MOD_VERSION = "@VERSION@";
+    public static final String MOD_VERSION = "GRADLETOKEN_VERSION";
     public static final String SOURCE_PATH = "com.jaquadro.minecraft.storagedrawers.packs.bop.";
 
     public DataResolver resolver = new DataResolver(MOD_ID);
