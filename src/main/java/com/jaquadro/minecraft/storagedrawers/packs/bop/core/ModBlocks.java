@@ -11,8 +11,7 @@ import com.jaquadro.minecraft.storagedrawers.packs.bop.StorageDrawersPack;
 import cpw.mods.fml.common.registry.GameData;
 import net.minecraft.block.Block;
 
-public class ModBlocks
-{
+public class ModBlocks {
     public static Block fullDrawers1;
     public static Block fullDrawers2;
     public static Block fullDrawers4;
@@ -20,10 +19,9 @@ public class ModBlocks
     public static Block halfDrawers4;
     public static Block trim;
 
-    public void init () {
+    public void init() {
         IStorageDrawersApi api = StorageDrawersApi.instance();
-        if (api == null)
-            return;
+        if (api == null) return;
 
         IPackBlockFactory factory = api.packFactory();
         IPackDataResolver resolver = StorageDrawersPack.instance.resolver;
@@ -61,7 +59,7 @@ public class ModBlocks
         }
     }
 
-    public static String getQualifiedName (Block block) {
+    public static String getQualifiedName(Block block) {
         return GameData.getBlockRegistry().getNameForObject(block);
     }
 }
