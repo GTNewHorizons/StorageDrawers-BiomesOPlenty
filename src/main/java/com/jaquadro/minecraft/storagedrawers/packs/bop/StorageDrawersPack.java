@@ -3,6 +3,7 @@ package com.jaquadro.minecraft.storagedrawers.packs.bop;
 import com.jaquadro.minecraft.storagedrawers.api.IStorageDrawersApi;
 import com.jaquadro.minecraft.storagedrawers.api.StorageDrawersApi;
 import com.jaquadro.minecraft.storagedrawers.packs.bop.core.*;
+
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -15,6 +16,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
         version = StorageDrawersPack.MOD_VERSION,
         dependencies = "required-after:StorageDrawers;")
 public class StorageDrawersPack {
+
     public static final String MOD_ID = "StorageDrawersBop";
     public static final String MOD_NAME = "Storage Drawers: Biomes O' Plenty Pack";
     public static final String MOD_VERSION = "GRADLETOKEN_VERSION";
