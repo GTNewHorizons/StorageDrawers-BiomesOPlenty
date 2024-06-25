@@ -1,15 +1,12 @@
 [{
-	"modid": "${modId}",
-	"name": "${modName}",
-	"description": "Adds additional wood styles from the Biomes O' Plenty mod.",
-	"version": "${modVersion}",
-    "mcversion": "${minecraftVersion}",
-	"credits": "By jaquadro",
-	"logoFile": "",
-	"url": "http://www.jaquadro.com/",
-	"parent": "StorageDrawers",
-	"authorList": [ "jaquadro" ],
-	"requiredMods": [ "Forge", "StorageDrawers" ],
-	"dependencies": [ "StorageDrawers" ],
-	"useDependencyInformation": true
+  "modid": "${modId}",
+  "name": "${modName}",
+  "description": "Adds additional wood styles from the Biomes O' Plenty mod.",
+  "version": "${modVersion}",
+  "mcversion": "${minecraftVersion}",
+  "credits": "By jaquadro",
+  "logoFile": "",
+  "url": "http://www.jaquadro.com/",
+  "parent": "StorageDrawers",
+  "authorList": [ "jaquadro" ]
 }]
